@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<machine>
+    <ups/>
+    <image>"Z:\\images\\syt"</image>
+    <heater></heater>
+    <safeLock>
+        <model>"LAGARD_1548"</model>
+        <steps>
+            1、逆时针旋转密码锁盘，转动四圈或四圈以上，刻度50对准密码开启线;
+            2、顺时针旋转密码锁盘，直至密码锁盘不再转动;
+            3、插入保险柜开启钥匙(豁口面朝上),顺时针旋转钥匙至不动,转动保险柜把手,能正常开启;
+            4、保持密码转盘不动，钥匙不动，保险柜锁舌可自由滑动;
+            5、保险柜把手处于关闭状态,逆时针转动钥匙,拔下,或打乱密码转盘,保险柜锁住。
+        </steps>
+    </safeLock>
+    <jrn>
+        <model></model>
+        <version></version>
+    </jrn>
+    <ccu>
+        <model>"CRT603CZ7"</model>
+        <version></version>
+        <led></led>
+    </ccu>
+    <frontDisplay>
+        <width>1024</width>
+        <height>768</height>
+        <touch>"multi"</touch>
+    </frontDisplay>
+    <rearDisplay>
+        <touch>"single"</touch>
+    </rearDisplay>
+    <passbook title="存折打印机">
+        <model>PR9</model>
+        <version>v1.0.1</version>
+        <testTool></testTool>
+    </passbook>
+  
+    <reedDoor title="门磁">
+
+    </reedDoor>
+    <reedDoorLock title="门锁">
+
+    </reedDoorLock>
+    <reedSafe title="安全门">
+
+    </reedSafe>
+    <keyboard title="键盘">
+
+    </keyboard>
+    <sound title="音频"></sound>
+    <rangier title="分配板">
+        <version>v1.0.0</version>
+    </rangier>
+    <epp title="密码键盘">
+        <model></model>
+        <version>v1.0.0</version>
+        <fdk/>
+    </epp>
+    <led title="灯">
+        <epp/>
+        <ptr/>
+        <hcr/>
+        <transcation/>
+        <crm/>
+        <passbook/>
+    </led>
+    <magnetic title="磁条卡">
+        <model></model>
+        <version></version>
+        <testTool></testTool>
+    </magnetic>
+    <chip title="芯片卡">
+        <model></model>
+        <version></version>
+        <testTool></testTool>
+    </chip>
+    <cardReturn title="退卡模块">
+        <model></model>
+        <version></version>
+        <testTool></testTool>
+    </cardReturn>
+    <camera>
+        <model></model>
+        <version></version>
+        <testTool></testTool>
+    </camera>
+</machine>

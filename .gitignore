@@ -1,0 +1,8 @@
+*.exe
+msvc/
+cvibuild.*/
+*.dll
+*.lib
+*.cws
+*.uir
+*.prj
